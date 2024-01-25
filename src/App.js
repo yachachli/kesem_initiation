@@ -50,7 +50,7 @@ function Home() {
     <div className="inner-container">
       <h1>Welcome to the KESEM INITIATION 2024!</h1>
       <p className="explainer-text">
-      Hello and welcome to Kesem initiation 2024! Below you will find 4 countdowns that will each reveal a location you must drive to and complete a certain activity at. Once at the location, send Chicken Joe (408-881-2093) proof of your group doing the activity. Additionally, if you have time between locations, you can complete any item in the 'scavenger hunt' section to get extra points. Feel free to text Chicken Joe if you have any questions! HAVE FUN, BE SAFE, AND GOOD LUCK  &lt;3
+      Hello and welcome to Kesem initiation 2024! Below you will find 4 countdowns that will each reveal a riddle to a location you must drive to and complete a certain activity at. Once at the location, send Chicken Joe (408-881-2093) proof of your group doing the activity. Additionally, if you have time between locations, you can complete any item in the 'scavenger hunt' section to get extra points (must send proof to CJ). Feel free to text Chicken Joe if you have any questions! HAVE FUN, BE SAFE, AND GOOD LUCK  &lt;3
       </p>
       {Object.entries(riddlesState).map(([key, { countdown, text }]) => (
         <div key={key} className="riddle-container">
