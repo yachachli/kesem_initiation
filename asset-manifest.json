@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kesem_initiation/static/css/main.b0c80b5b.css",
+    "main.css": "/kesem_initiation/static/css/main.737c428e.css",
     "main.js": "/kesem_initiation/static/js/main.8cc579e5.js",
     "static/js/787.ffb0e650.chunk.js": "/kesem_initiation/static/js/787.ffb0e650.chunk.js",
     "index.html": "/kesem_initiation/index.html",
-    "main.b0c80b5b.css.map": "/kesem_initiation/static/css/main.b0c80b5b.css.map",
+    "main.737c428e.css.map": "/kesem_initiation/static/css/main.737c428e.css.map",
     "main.8cc579e5.js.map": "/kesem_initiation/static/js/main.8cc579e5.js.map",
     "787.ffb0e650.chunk.js.map": "/kesem_initiation/static/js/787.ffb0e650.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0c80b5b.css",
+    "static/css/main.737c428e.css",
     "static/js/main.8cc579e5.js"
   ]
 }
