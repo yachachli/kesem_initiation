@@ -5,6 +5,10 @@ html, body, #root {
   background-color: #ADD8E6; /* Light blue background */
 }
 
+body {
+  font-family: 'Playfair Display', serif;
+}
+
 .App {
   text-align: center;
   min-height: 100%;
