@@ -18,8 +18,8 @@ function Home() {
   const riddleTimes = {
     riddle1: moment.tz('2024-02-02 18:30', 'America/Los_Angeles'),
     riddle2: moment.tz('2024-02-02 19:00', 'America/Los_Angeles'),
-    riddle3: moment.tz('2024-02-02 20:00', 'America/Los_Angeles'),
-    riddle4: moment.tz('2024-02-02 20:30', 'America/Los_Angeles')
+    riddle3: moment.tz('2024-02-02 19:30', 'America/Los_Angeles'),
+    riddle4: moment.tz('2024-02-02 20:00', 'America/Los_Angeles')
   };
 
   const calculateCountdown = () => {
