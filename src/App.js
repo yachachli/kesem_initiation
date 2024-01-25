@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import './App.css';
 import moment from 'moment-timezone';
 import { NavLink } from 'react-router-dom';
@@ -87,22 +87,21 @@ function App() {
         <nav>
           <ul>
             <li>
-              <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
+              <NavLink to="/home" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
             </li>
             <li>
               <NavLink to="/scavenger-hunt-list" className={({ isActive }) => isActive ? "active" : ""}>Scavenger Hunt List</NavLink>
             </li>
           </ul>
         </nav>
-
         <Routes>
           <Route path="/scavenger-hunt-list" element={<ScavengerHuntList />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/" element={<Navigate replace to="/home" />} />
+          {/* Redirect all other paths to /home */}
+          <Route path="/*" element={<Navigate replace to="/home" />} />
         </Routes>
       </div>
     </Router>
   );
 }
-
 export default App;
