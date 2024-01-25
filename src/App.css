@@ -1,5 +1,48 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ADD8E6; /* Light blue background */
+}
+
 .App {
   text-align: center;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Ensure that the nav is flush with the top of the page */
+  display: flex;
+  justify-content: center;
+  background-color: #333; /* Dark background for contrast */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a.active {
+  background-color: #555; /* Darker background on hover/active */
+  border-bottom: 3px solid #ADD8E6; /* Light blue bottom border for active tab */
+}
+
+@media (max-width: 900px) {
+  .App-header {
+    padding: 0 10px; /* Less padding on smaller screens */
+  }
 }
 
 .App-logo {
@@ -24,6 +67,20 @@
   color: white;
 }
 
+.inner-container {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* This centers your content on the page */
+  width: 100%; /* Ensures the container takes up the available width */
+  padding: 0 20px; /* This adds padding on the left and right */
+}
+
+
+.explainer-text {
+  /* ...existing styles... */
+  text-align: justify; /* This will justify your text */
+  padding: 0 20px; /* This adds padding on the left and right */
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +92,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.countdown {
+  font-family: 'Orbitron', sans-serif;
+  color: red;
+  background-color: black;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.riddle {
+  font-size: 20px;
+  color: white;
+}
+
+.riddle-container {
+  margin-bottom: 20px; /* Adds space between each riddle countdown */
 }
