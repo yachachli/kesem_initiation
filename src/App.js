@@ -65,7 +65,7 @@ function Home() {
 
 // ScavengerHuntList component
 function ScavengerHuntList() {
-  const items = ['item 1', 'item 2', 'item 3']; // Add more items as needed
+  const items = ['You thought you could get a headstart?', "That's cute", 'Maybe consider places to find milk']; // Add more items as needed
   return (
     <div className="inner-container">
       <h2>Scavenger Hunt List</h2>
