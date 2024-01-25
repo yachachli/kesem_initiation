@@ -97,7 +97,7 @@ function App() {
 
         <Routes>
           <Route path="/scavenger-hunt-list" element={<ScavengerHuntList />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </Router>
