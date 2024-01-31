@@ -65,7 +65,7 @@ function Home() {
 
 // ScavengerHuntList component
 function ScavengerHuntList() {
-  const items = ['You thought you could get a headstart?', "That's cute", 'Maybe consider places to find milk']; // Add more items as needed
+  const items = ['You thought you could get a headstart?', "That's cute", 'Maybe consider places to find milk', 'Bring a DC glass of milk to the afterparty!', 'Switch your passenger seat returner with a different groups', 'Have your returners venmo gator for the after party (if they have yet to', 'Kiss 3 eggheads!', 'Have two group members interlock toes', 'Interlock toes with Chicken joe for $20 to your classy (This will not happen, unless he gets too milky...)', 'Touch tongues with a group member', 'Play captains coming with your group!', 'Sing a camp song', 'Get your nipples pierced', 'Climb a tree (be safe)', 'Find Cheeto (extra points if you bring him to Nemos)', 'Take a picture of the front door of someone in kesem (cannot be your returners places)', "Give ChumBuckets number to a stranger for a 'great time'", 'Find and Ice a director (Not one in your group)', 'Write a haiku about a VRGBA member']; // Add more items as needed
   return (
     <div className="inner-container">
       <h2>Scavenger Hunt List</h2>
