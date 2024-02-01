@@ -116,9 +116,50 @@ nav ul li a.active {
 
 .riddle {
   font-size: 20px;
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 .riddle-container {
   margin-bottom: 20px; /* Adds space between each riddle countdown */
+}
+
+/* Add this to your App.css */
+
+.app-container {
+  display: flex; /* Use flexbox to layout side images and main content */
+  justify-content: space-between; /* Space out the main content and side images */
+  align-items: flex-start; /* Align items at the start of the container */
+}
+
+.side-images {
+  display: flex; /* Stack the images vertically */
+  flex-direction: column; /* Arrange images in a column */
+  justify-content: center; /* Center images vertically */
+  gap: 20px; /* Space between images */
+}
+
+.main-content {
+  flex-grow: 1; /* Allow the main content to take up remaining space */
+  max-width: calc(100% - 300px); /* Adjust the width of the main content */
+  margin: 0 20px; /* Add some margin around the main content */
+}
+
+/* Style for individual images to ensure they don't get too large */
+.side-image {
+  max-height: 100px; /* Adjust based on your preference */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.footer-images {
+  display: flex; /* Use flexbox to lay out the images in a row */
+  justify-content: center; /* Center the images horizontally */
+  gap: 20px; /* Add some space between the images */
+  padding: 20px; /* Add some padding around the images */
+  flex-wrap: wrap; /* Allow images to wrap onto the next line if the screen is too narrow */
+}
+
+
+.footer-image {
+  max-width: 100px; /* Limit image width to keep them small */
+  height: auto; /* Maintain the aspect ratio of the images */
 }
